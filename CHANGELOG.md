@@ -1,3 +1,6 @@
+Magento 4.1.7 2022-06-10
+- Refactor Logger 
+
 Magento 4.1.6 2022-06-09
 - update logger 
 
