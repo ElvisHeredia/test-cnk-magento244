@@ -4,8 +4,7 @@ namespace Conekta\Payments\Logger;
 
 use Conekta\Payments\Helper\Data;
 use Magento\Framework\App\ObjectManager;
-use Monolog\DateTimeImmutable;
-use Monolog\Logger;
+use Monolog\Logger as MonoLogger;
 
 class Logger
 {
@@ -21,7 +20,7 @@ class Logger
         $conektaHelper = $objectManager->create(Data::class);
 
         if ((int)$conektaHelper->getConfigData('conekta/conekta_global', 'debug')) {
-            return Logger::addRecord($level, $message, $context);
+            return MonoLogger::addRecord($level, $message, $context);
         }
 
         return true;
