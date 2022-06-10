@@ -4,6 +4,7 @@ namespace Conekta\Payments\Logger;
 
 use Conekta\Payments\Helper\Data;
 use Magento\Framework\App\ObjectManager;
+use Monolog\DateTimeImmutable;
 
 class Logger extends \Monolog\Logger
 {
@@ -13,7 +14,7 @@ class Logger extends \Monolog\Logger
      * @param array $context
      * @return bool
      */
-    public function addRecord(int $level, string $message, array $context = []): bool
+    public function addRecord(int $level, string $message, array $context = [], ?Monolog\DateTimeImmutable $datetime = null): bool
     {
         $objectManager = ObjectManager::getInstance();
         $conektaHelper = $objectManager->create(Data::class);
