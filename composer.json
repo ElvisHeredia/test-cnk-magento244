@@ -13,10 +13,11 @@
         "magento/module-checkout": "^100.4.4",
         "magento/module-payment": "^100.4.4",
         "magento/framework": "^103.0.4",
-        "conekta/conekta-php": "*"
+        "conekta/conekta-php": "~4.2.0",
+        "monolog/monolog": "~2.6.0"
     },
     "type": "magento2-module",
-    "version": "4.1.7",
+    "version": "4.1.8",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
