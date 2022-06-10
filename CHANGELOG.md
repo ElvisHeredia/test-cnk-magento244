@@ -1,4 +1,7 @@
-Magento 4.1.4 2022-06-09
+Magento 4.1.6 2022-06-09
+- update logger 
+
+Magento 4.1.5 2022-06-09
 - version 4.1.5
 
 
