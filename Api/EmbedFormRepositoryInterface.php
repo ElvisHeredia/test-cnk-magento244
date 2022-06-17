@@ -3,8 +3,11 @@
 namespace Conekta\Payments\Api;
 
 use Conekta\Order;
-use Conekta\Payments\Exception\ConektaException;
 
+/**
+ * Interface EmbedFormRepositoryInterface
+ * @package Conekta\Payments\Api
+ */
 interface EmbedFormRepositoryInterface
 {
     /**

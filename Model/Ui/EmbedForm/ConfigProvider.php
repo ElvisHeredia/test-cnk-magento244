@@ -19,7 +19,7 @@ class ConfigProvider implements ConfigProviderInterface
     /**
      * Payment method code
      */
-    const CODE = 'conekta_ef';
+    public const CODE = 'conekta_ef';
     public const PAYMENT_METHOD_CREDIT_CARD = 'credit';
     public const PAYMENT_METHOD_OXXO = 'oxxo';
     public const PAYMENT_METHOD_SPEI = 'spei';

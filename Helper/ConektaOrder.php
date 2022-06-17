@@ -61,7 +61,7 @@ class ConektaOrder extends Util
      */
     public function generateOrderParams($guestEmail): array
     {
-        $this->conektaLogger->info('ConektaOrder.generateOrderParams init');
+        $this->conektaLogger->info('ConektaOrder.generateOrderParams init', []);
 
         Conekta::setApiKey($this->conektaHelper->getPrivateKey());
         Conekta::setApiVersion("2.0.0");

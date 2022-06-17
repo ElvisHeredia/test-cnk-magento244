@@ -68,7 +68,6 @@ class CreateOrder extends Action implements HttpPostActionInterface
 
                 $response['checkout_id'] = $order['checkout']['id'];
             } catch (\Exception $e) {
-
                 $errorMessage = 'Ha ocurrido un error inesperado. Notifique al dueño de la tienda.' . $e->getMessage();
                 if ($e instanceof ConektaException) {
                     $errorMessage = $e->getMessage();

@@ -58,7 +58,7 @@ class Logger
      * @param array $array
      * @return void
      */
-    public function debug(string $message, array $array = []): void
+    public function debug(string $message, array $array = [])
     {
         $this->monolog->debug($message, $array);
     }

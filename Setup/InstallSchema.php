@@ -7,6 +7,10 @@ use Magento\Framework\DB\Ddl\Table;
 use Magento\Framework\Setup\{InstallSchemaInterface, ModuleContextInterface, SchemaSetupInterface};
 use Zend_Db_Exception;
 
+/**
+ * Class InstallSchema
+ * @package Conekta\Payments\Setup
+ */
 class InstallSchema implements InstallSchemaInterface
 {
     /**
@@ -139,7 +143,12 @@ class InstallSchema implements InstallSchemaInterface
             'Updated At'
         )
         ->addForeignKey(
-            $installer->getFkName('conekta_quote', 'quote_id', 'quote', 'entity_id'),
+            $installer->getFkName(
+                'conekta_quote',
+                'quote_id',
+                'quote',
+                'entity_id'
+            ),
             'quote_id',
             $installer->getTable('quote'),
             'entity_id',

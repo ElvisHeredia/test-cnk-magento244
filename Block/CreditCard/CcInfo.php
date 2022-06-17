@@ -8,10 +8,22 @@ use Magento\Framework\View\Element\Template\Context;
 use Magento\Payment\Block\Info;
 use Magento\Payment\Model\Config;
 
+/**
+ * Class CcInfo
+ * @package Conekta\Payments\Block\CreditCard
+ */
 class CcInfo extends Info
 {
+    /**
+     * @var string
+     */
     protected $_template = 'Conekta_Payments::info/creditcard.phtml';
 
+    /**
+     * @param Context $context
+     * @param Config $_paymentConfig
+     * @param array $data
+     */
     public function __construct(
         Context $context,
         protected Config $_paymentConfig,

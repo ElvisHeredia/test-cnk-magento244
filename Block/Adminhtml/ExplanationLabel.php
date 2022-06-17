@@ -5,6 +5,10 @@ namespace Conekta\Payments\Block\Adminhtml;
 use Magento\Framework\Data\Form\Element\{AbstractElement, CollectionFactory, Factory};
 use Magento\Framework\Escaper;
 
+/**
+ * Class ExplanationLabel
+ * @package Conekta\Payments\Block\Adminhtml
+ */
 class ExplanationLabel extends AbstractElement
 {
     public function __construct(

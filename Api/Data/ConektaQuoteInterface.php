@@ -2,6 +2,10 @@
 
 namespace Conekta\Payments\Api\Data;
 
+/**
+ * Interface ConektaQuoteInterface
+ * @package Conekta\Payments\Api\Data
+ */
 interface ConektaQuoteInterface
 {
     public const QUOTE_ID = 'quote_id';

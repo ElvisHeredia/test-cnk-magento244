@@ -10,8 +10,16 @@ use Magento\Payment\Model\Config;
 
 class EmbedFormInfo extends Info
 {
+    /**
+     * @var string
+     */
     protected $_template = 'Conekta_Payments::info/embedform.phtml';
 
+    /**
+     * @param Context $context
+     * @param Config $_paymentConfig
+     * @param array $data
+     */
     public function __construct(
         Context          $context,
         protected Config $_paymentConfig,
