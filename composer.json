@@ -17,7 +17,7 @@
         "conekta/conekta-php": "5.0.0"
     },
     "type": "magento2-module",
-    "version": "4.1.8",
+    "version": "4.2.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
