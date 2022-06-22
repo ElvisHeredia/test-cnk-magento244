@@ -1,6 +1,12 @@
+### 5.0.1 - 2022/06/22 11:24
+
+[Full Changelog](https://github.com/conekta/ct-magento-2.4.4/compare/5.0.0..5.0.1)
+* Fix:
+  - Fix error in Logger file
+
 ### 5.0.0 - 2022/06/13 17:00
 
-[Full Changelog](https://github.com/conekta/ct-magento-2.4.4/compare/main..feature/MT-301-magento-refactor-to-2.4.4-php-8.1)
+[Full Changelog](https://github.com/conekta/ct-magento-2.4.4/compare/main..5.0.0)
 * Feature:
     - [MT-275] Update to php 8.1 by @elvisheredia in [#125](https://github.com/conekta/ct-magento-2.4.4/pull/1)
     - Apply PSR12 format rules
